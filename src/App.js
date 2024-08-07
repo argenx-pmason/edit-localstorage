@@ -336,7 +336,7 @@ const App = () => {
       >
         <DialogTitle>Info about this screen</DialogTitle>
         <DialogContent>
-          <Box sx={{ color: "blue", fontSize: 11 }}>
+          <Box sx={{ color: "blue", fontSize: 13 }}>
             <ol>
               <li>Any existing values will be loaded first.</li>
               <li>Double click a row to edit it.</li>
@@ -348,6 +348,14 @@ const App = () => {
                 repository or workspace view in LSAF.
               </li>
             </ol>
+            <b>Notes:</b>
+            <ul>
+              <li>
+                You can enter a folder or a file as a path. e.g.
+                /general/biostat/tools/sdtm-last or
+                /general/biostat/tools/sdtm-last/asset-manifest.json{" "}
+              </li>
+            </ul>
           </Box>
         </DialogContent>
       </Dialog>
