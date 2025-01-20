@@ -38,7 +38,7 @@ import {
   Add,
   Save,
 } from "@mui/icons-material";
-import { LicenseInfo } from "@mui/x-license-pro";
+import { LicenseInfo } from "@mui/x-license";
 import { v4 as uuidv4 } from "uuid";
 const App = () => {
   LicenseInfo.setLicenseKey(
@@ -54,7 +54,7 @@ const App = () => {
     // mode = href.startsWith("http://localhost") ? "local" : "remote",
     // server = href.split("//")[1].split("/")[0],
     // webDavPrefix = urlPrefix + "/lsaf/webdav/repo",
-    // fileViewerPrefix = `https://${server}/lsaf/filedownload/sdd:/general/biostat/tools/fileviewer/index.html?file=`,
+    // fileViewerPrefix = `https://${server}/lsaf/filedownload/sdd:/general/biostat/apps/fileviewer/index.html?file=`,
     [openInfo, setOpenInfo] = useState(false),
     [rows, setRows] = useState(null),
     cols = [
@@ -352,8 +352,8 @@ const App = () => {
             <ul>
               <li>
                 You can enter a folder or a file as a path. e.g.
-                /general/biostat/tools/sdtm-last or
-                /general/biostat/tools/sdtm-last/asset-manifest.json{" "}
+                /general/biostat/apps/sdtm-last or
+                /general/biostat/apps/sdtm-last/asset-manifest.json{" "}
               </li>
             </ul>
           </Box>

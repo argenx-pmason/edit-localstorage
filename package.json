@@ -2,7 +2,7 @@
   "name": "edit-localstorage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/lsaf/webdav/repo/general/biostat/tools/edit-localstorage",
+  "homepage": "/lsaf/webdav/repo/general/biostat/apps/edit-localstorage",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
